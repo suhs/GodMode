@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Buttons
+  - Displays
+  - Decos
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Interactive
   - 
   - 
   - 
@@ -40,4 +43,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Walls
+    uniqueID: 2035007127
+    locked: 0
+  - name: Walldeco
+    uniqueID: 54986047
+    locked: 0
+  - name: Screen
+    uniqueID: 3571444781
+    locked: 0
+  - name: Deco
+    uniqueID: 3504505589
+    locked: 0
+  - name: Buttons
+    uniqueID: 465427325
     locked: 0

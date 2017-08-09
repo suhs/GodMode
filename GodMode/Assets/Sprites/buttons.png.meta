@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 580804c73f2977748861959b67dc7d0c
-timeCreated: 1500693682
+timeCreated: 1502265571
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,8 @@ TextureImporter:
     21300006: buttons_3
     21300008: buttons_4
     21300010: buttons_5
+    21300012: buttons_6
+    21300014: buttons_7
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -92,12 +94,12 @@ TextureImporter:
       name: buttons_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 916
-        width: 255
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1232
+        width: 530
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -106,12 +108,12 @@ TextureImporter:
       name: buttons_1
       rect:
         serializedVersion: 2
-        x: 329
-        y: 919
-        width: 255
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 1238
+        width: 531
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5013384, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -120,12 +122,12 @@ TextureImporter:
       name: buttons_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 724
-        width: 255
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 832
+        width: 530
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +136,12 @@ TextureImporter:
       name: buttons_3
       rect:
         serializedVersion: 2
-        x: 335
-        y: 730
-        width: 255
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 652
+        y: 844
+        width: 530
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,12 +150,12 @@ TextureImporter:
       name: buttons_4
       rect:
         serializedVersion: 2
-        x: 58
-        y: 513
-        width: 183
-        height: 143
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 75
+        y: 394
+        width: 381
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +164,12 @@ TextureImporter:
       name: buttons_5
       rect:
         serializedVersion: 2
-        x: 62
-        y: 324
-        width: 183
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 0
+        width: 381
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
