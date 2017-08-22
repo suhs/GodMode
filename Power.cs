@@ -1,7 +1,9 @@
 // Power.cs
+using UnityEngine;
+using System;
 
 // power variables
-public class Power {
+public class Power : MonoBehaviour {
   // prob. of overall power. Higher this value, more chance your action overriding result
   protected float willPower { get; set; }
 

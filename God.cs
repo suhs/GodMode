@@ -1,7 +1,8 @@
 // God.cs
+using UnityEngine;
 
 // player class
-public class God {
+public class God : MonoBehaviour {
 
   // aka level
   protected string jobTitle { get; set; }

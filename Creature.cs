@@ -1,8 +1,9 @@
 // Creature.cs
+using UnityEngine;
 using System;
 
 // Base for all creatures - to be inherited by God(player), Human, dog, cat, etc.
-public class Creature {
+public class Creature : MonoBehaviour {
 
   /* identity variables */
   // identifier. Might get decapitated
