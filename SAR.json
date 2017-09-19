@@ -1,0 +1,20 @@
+{
+  "Situation" : {
+    "Tutorial" : {
+      "1" : "Foo is hungry.",
+      "" : "",
+    }
+  },
+  "Action" : {
+    "Tutorial1" : {
+      "" : [],
+      "" : [],
+      "" : []
+    },
+  },
+  "Result" : {
+    "Tutorial1" : {
+      "Outliers" : [""]
+    }
+  }
+}
