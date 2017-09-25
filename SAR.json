@@ -2,19 +2,34 @@
   "Situation" : {
     "Tutorial" : {
       "1" : "Foo is hungry.",
-      "" : "",
+      "2" : "Foo is walking.",
+      "3" : "Food is sleeping."
     }
   },
   "Action" : {
-    "Tutorial1" : {
-      "" : [],
-      "" : [],
-      "" : []
-    },
+    "Tutorial" : {
+      "1" : {
+        "Environment" : {
+          "Positive" : [],
+          "Neutral" : [],
+          "Negative" : []
+        },
+        "Protagonist" : {
+          "Positive" : [],
+          "Neutral" : [],
+          "Negative" : []
+        }
+      }
+    }
   },
   "Result" : {
-    "Tutorial1" : {
-      "Outliers" : [""]
+    "Tutorial" : {
+      "1" : {
+        "Positive" : [],
+        "Neutral" : [],
+        "Negative" : [],
+        "Outliers" : []
+      }
     }
   }
 }
