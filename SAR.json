@@ -1,16 +1,15 @@
 {
   "Situation" : {
     "Tutorial" : {
-      "1" : "Foo is hungry.",
-      "2" : "Foo is walking.",
-      "3" : "Food is sleeping."
+      "1" : "Thuck is walking.",
+      "2" : "Thuck is sleeping."
     }
   },
   "Action" : {
     "Tutorial" : {
       "1" : {
         "Environment" : {
-          "Positive" : [],
+          "Positive" : [""],
           "Neutral" : [],
           "Negative" : []
         },
