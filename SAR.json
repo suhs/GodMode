@@ -1,34 +1,25 @@
 {
-  "Situation" : {
-    "Tutorial" : {
-      "1" : "Thuck is walking.",
-      "2" : "Thuck is sleeping."
-    }
-  },
-  "Action" : {
-    "Tutorial" : {
-      "1" : {
-        "Environment" : {
-          "Positive" : [""],
-          "Neutral" : [],
-          "Negative" : []
-        },
-        "Protagonist" : {
-          "Positive" : [],
-          "Neutral" : [],
-          "Negative" : []
-        }
-      }
-    }
-  },
-  "Result" : {
-    "Tutorial" : {
-      "1" : {
+  "Situation" : [
+    "","is sleeping after",
+  ],
+  "Action" : [
+    [{
+        "Positive" : [""],
+        "Neutral" : [],
+        "Negative" : []
+      },
+      {
         "Positive" : [],
         "Neutral" : [],
-        "Negative" : [],
-        "Outliers" : []
-      }
+        "Negative" : []
+      }]
+  ],
+  "Result" : {
+    "1" : {
+      "Positive" : [],
+      "Neutral" : [],
+      "Negative" : [],
+      "Outliers" : []
     }
   }
 }
