@@ -1,25 +1,54 @@
 {
-  "Situation" : [
-    "","is sleeping after",
-  ],
-  "Action" : [
-    [{
-        "Positive" : [""],
-        "Neutral" : [],
-        "Negative" : []
-      },
-      {
-        "Positive" : [],
-        "Neutral" : [],
-        "Negative" : []
-      }]
-  ],
-  "Result" : {
+  "Situation" : {
     "1" : {
-      "Positive" : [],
-      "Neutral" : [],
-      "Negative" : [],
-      "Outliers" : []
+      "description" : "found [%target%] down the street in the morning",
+      "actions" : ["1","2"],
+      "target" : ["1","2","3","4"],
+
+    },
+    "2" : {
+
+    }
+  },
+  "Action" : {
+    "1" : {
+        "description" : "attempts to pet [%target%]",
+        "results" : ["1","2","3"],
+    },
+    "2" :{
+      "description" : "walked away",
+      "results" : ["0"],
+    }
+
+  },
+  "Result" : {
+    "0" : {
+      "description" : "Nothing happened",
+      "situations" : [],
+      "affect" : {"nothing":1}
+    },
+    "1" : {
+      "description" : "got bitten by [%target%]",
+      "situations" : [],
+      "affect" : {"rabies":0.3,"nothing":0.7}
+    }
+  },
+  "Target" : {
+    "1" : {
+      "object" : "a raccoon",
+      "probability" : 0.05
+    },
+    "2" : {
+      "object" : "a pet Shiba",
+      "probability" : 0.001
+    },
+    "3" : {
+      "object" : "a stray cat",
+      "probability" : 0.002
+    },
+    "4" : {
+      "object" : "a stray dog",
+      "probability" : 0.001
     }
   }
 }
